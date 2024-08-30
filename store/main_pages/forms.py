@@ -18,7 +18,7 @@ class CommentForm(forms.ModelForm):
         }
 
 
-# данный класс формы, не превз
+# данный класс формы не привязан к модели
 class CreateProductForm(forms.Form):
     title = forms.CharField(label='Заголовок', widget=forms.TextInput(attrs={
         'class': 'form-control'
